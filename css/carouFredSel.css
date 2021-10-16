@@ -1,0 +1,88 @@
+#carousel-wrapper,
+#carousel_2-wrapper,
+#carousel_3-wrapper {
+	padding-bottom: 10px;
+	position: relative;
+	overflow:hidden;
+}
+#carousel, #thumbs,
+#carousel_2, #thumbs_2,
+#carousel_3, #thumbs_3 {
+	overflow: hidden;
+}
+
+#carousel span, #carousel img,  #thumbs a, #thumbs img ,
+#carousel_2 span, #carousel_2 img,  #thumbs_2 a, #thumbs_2 img ,
+#carousel_3 span, #carousel_3 img,  #thumbs_3 a, #thumbs_3 img{
+	display: block;
+	float: left;
+}
+#carousel span, #carousel a,  #thumbs span, #thumbs a ,
+#carousel_2 span, #carousel_2 a,  #thumbs_2 span, #thumbs_2 a,
+#carousel_3 span, #carousel_3 a,  #thumbs_3 span, #thumbs_3 a {
+	position: relative;
+}
+#carousel img,  #thumbs img,
+#carousel_2 img,  #thumbs_2 img,
+#carousel_3 img,  #thumbs_3 img {
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#carousel img.glare,  #thumbs img.glare,
+#carousel_2 img.glare,  #thumbs_2 img.glare,
+#carousel_3 img.glare,  #thumbs_3 img.glare {
+	width: 102%;
+	height: auto;
+}
+#carousel span,
+#carousel_2 span,
+#carousel_3 span {
+	width:700px;
+	height:500px;
+}
+#thumbs-wrapper,
+#thumbs-wrapper_2,
+#thumbs-wrapper_3 {
+	padding: 20px 40px;
+	position: relative;
+}
+#thumbs a ,
+#thumbs_2 a,
+#thumbs_3 a {
+	width: 150px;
+	height: 100px;
+	margin: 0 10px;
+	overflow: hidden;
+}
+#thumbs a:hover, #thumbs a.selected ,
+#thumbs_2 a:hover, #thumbs_2 a.selected,
+#thumbs_3 a:hover, #thumbs_3 a.selected{
+	border-color: #566;
+}
+#prev, #next, #prev_2, #next_2, #prev_3, #next_3 {
+	background: transparent url(../images/carousel_nav.png) no-repeat 0 0;
+	display: block;
+	width:20px;
+	height: 20px;
+	margin-top: -10px;
+	position: absolute;
+	top: 50%;
+}
+#prev, #prev_2 , #prev_3 {
+	background-position: 0 0;
+	left: 10px;
+}
+#next, #next_2, #next_3 {
+	background-position: -20px 0;
+	right: 10px;
+}
+#prev:hover, #prev_2:hover,#prev_3:hover,#next_3:hover,
+#next:hover, #next_2:hover {
+opacity:0.9;
+}
+
+#prev.disabled, #next.disabled, #prev_2.disabled, #next_2.disabled, #prev_3.disabled, #next_3.disabled {
+	display: none !important;
+}

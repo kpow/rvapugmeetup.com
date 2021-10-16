@@ -1,0 +1,152 @@
+@media only screen (min-width: 1100px) {
+}
+
+
+/* Tablet (Portrait) */
+/* Width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+#container_wrapper{
+ width:708px;
+}
+
+#leftSide {
+width:208px;
+
+}
+.contWrapper {
+width:500px;
+}
+
+#content > ul > li {
+width:440px;
+
+}
+
+}
+
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+#container_wrapper{
+ width:320px;
+ margin:0 auto;
+ overflow:hidden;
+}
+/* Logo section
+----------------------------------------*/
+#logo {
+display:none;
+}
+#logo_mobile{
+	display: block;
+	padding:0px;
+}
+
+.social_media {
+margin-top:20px;
+}
+.social_media h4{
+display:none;
+}
+
+
+#leftSide {
+width:320px;
+height:250px;
+background-image:none;
+z-index:3;
+overflow:hidden;
+}
+.contWrapper {
+width:100%;
+margin-top:250px;
+position:absolute;
+z-index:4;
+}
+
+#content > ul > li {
+width:260px;
+}
+
+/* Menu section
+----------------------------------------*/
+#sidebarmenu ul{
+display: none;
+}
+#sidebarmenu {
+	width:100%;
+	left:0px!important;
+}
+
+#sidebarmenu select{
+	display:block;
+	width:100%;
+	clear:both;
+	top:0px;
+	padding:3px;
+}
+#sidebarmenu select option{
+	padding:3px;
+}
+
+/* slider captions
+----------------------------------------*/
+#slidecaption{
+left:0px !important;
+padding:30px;
+
+}
+
+#slidecaption{
+width:300px;
+margin:0 auto;
+}
+#slidecaption h1 {
+    font-size:60px;
+	font-weight:500;
+	word-spacing:17px;
+}
+
+
+#slidecaption h2{
+ color: #FFFFFF;
+    font-size:26px;
+    line-height: 1.1em;
+	font-weight:300;}
+
+
+.social_media_wrapper{
+	position: absolute;
+	bottom:20px;
+	z-index:333;
+}
+
+#controls{
+display:none;
+}
+
+/* Columns
+----------------------------------------*/
+.one_half, .one_half_last, .one_third, .one_third_last, .two_third, .two_third_last, .one_fourth, .one_fourth_last, .two_fourth, .two_fourth_last, .three_fourth, .three_fourth_last, .one_fifth, .one_fifth_last, .two_fifth, .two_fifth_last, .three_fifth, .three_fifth_last, .four_fifth, .four_fifth_last, #pricing_table .one_third, #pricing_table .one_fourth{
+ width: 100%;
+margin: 0 0 30px;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+#container_wrapper{
+ width:480px;
+ margin:0 auto;
+}
+#leftSide {
+width:480px;
+}
+#content > ul > li {
+width:420px;
+}
+
+#slidecaption{
+width:440px;
+margin:0 auto;
+}
+
+}
