@@ -50,13 +50,13 @@ var rpm = {
           {
             image: 'images/slider_img_4.jpg',
             title:
-              '<br><br><br><br><br><br><br><br><br><h1>14 years</h1> <h2>cheers to us!</h2>'
+              '<br><br><br><br><br><br><br><br><br><h1>17 years</h1> <h2>cheers to us!</h2>'
           },
 
           {
             image: 'images/slider_img_2.jpg',
             title:
-              "<h1>get your <br>pug-o-ween on!</h1> <h2>what's better than pugs in costumes?</h2><p>Mark your calendars for our 10th Annual event on 10/26/2019!</p>"
+              "<h1>get your <br>pug-o-ween on!</h1> <h2>what's better than pugs in costumes?</h2><p>Mark your calendars for our 11th Annual event on 10/24/2021!</p>"
           },
           {
             image: 'images/slider_img_3.jpg',
